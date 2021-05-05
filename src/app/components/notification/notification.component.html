@@ -3,12 +3,41 @@
         <h2>CONTATO</h2>
     </div>
     <div class="contact">
-        <i class="fab fa-whatsapp"></i>
+        <div class="mail">
+            <form>
+                <div class="contact-form col-11">
+                    <label>Nome:</label>
+                    <input type="text">
+                    <label>Assunto:</label>
+                    <input type="email" name="Contact-Email"> 
+                    <label>Mensagem:</label>
+                    <textarea name="Contact-Message" rows="6">
+                    </textarea> 
+                    <button type="submit" class="btn btn-outline-danger btn-round col-3" (click)="submitForm()">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="no-mail">
+            <div class="contact-ways">
+                <div class="way">
+                    <i class="fa fa-whatsapp icon"></i>
+                    <span> 11 98874-7361</span>
+                </div>
+                <div class="way">
+                    <i class="fa fa-tty icon"></i>
+                    <span> 11 4401-2901</span>
+                </div>
+                <div class="way">
+                    <i class="fa fa-id-badge icon"></i>
+                    <span> Falar com: Luiz Carlos Ribeiro</span>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="title">
         <h2>ONDE NOS ENCONTRAR?</h2>
     </div>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.942971989133!2d-46.503889984409476!3d-23.64221327046954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce68397dcd8699%3A0x16ebe88a6520b262!2sAv.%20Eduardo%20Prado%2C%20385%20-%20Parque%20Erasmo%20Assun%C3%A7%C3%A3o%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009271-180!5e0!3m2!1spt-BR!2sbr!4v1620083963484!5m2!1spt-BR!2sbr"
-        style="border:0;" class="location" allowfullscreen="" loading="lazy"></iframe>
+        style="border: 2px solid #f5593d;" class="location" allowfullscreen="" loading="lazy"></iframe>
 </div>

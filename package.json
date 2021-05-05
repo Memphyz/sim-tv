@@ -15,6 +15,9 @@
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
+  "engines": {
+    "node": "6.9.4"
+  },
   "dependencies": {
     "@angular/animations": "11.0.4",
     "@angular/common": "11.0.4",
@@ -29,14 +32,22 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@ng-bootstrap/ng-bootstrap": "6.0.0",
     "bootstrap": "4.5.3",
+    "child_process": "^1.0.2",
     "core-js": "3.8.1",
+    "dns": "^0.2.2",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
     "jquery": "3.5.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
+    "net": "^1.0.2",
     "ng2-nouislider": "1.8.2",
+    "nodemailer": "^6.6.0",
     "nouislider": "14.6.3",
     "popper.js": "1.16.1",
+    "request": "^2.79.0",
     "rxjs": "6.6.3",
     "rxjs-compat": "6.6.3",
+    "tls": "0.0.1",
     "zone.js": "0.11.3"
   },
   "devDependencies": {
@@ -45,7 +56,7 @@
     "@angular/compiler-cli": "11.0.4",
     "@angular/language-service": "11.0.4",
     "@types/jasmine": "3.6.2",
-    "@types/node": "14.14.12",
+    "@types/node": "^14.14.12",
     "codelyzer": "6.0.1",
     "jasmine-core": "3.6.0",
     "jasmine-spec-reporter": "6.0.0",

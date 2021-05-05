@@ -2,11 +2,11 @@
   margin: 0 auto;
   text-align: center;
   background: #44413d;
-  height: 100vh;
+  height: auto;
 }
 
 .location {
-  height: 45vw;
+  height: 50vw;
   width: 98%;
   margin: 0;
 }
@@ -14,6 +14,37 @@
 .contact {
   width: 100%;
   min-height: 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.contact-ways {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 50px;
+  top: 40px;
+
+  .way {
+    width: fit-content;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.no-mail {
+  text-align: justify;
+}
+
+.contact-form {
+  display: grid;
+  row-gap: 10px;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 .title {
@@ -21,4 +52,20 @@
   margin: 0;
   padding: 30px;
   color: white;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+}
+
+input, textarea {
+  background: transparent;
+  min-height: 45px;
+  font-size: 15px;
+  border-radius: 13px;
+  color: white;
+  outline: none;
+  padding: 0 25px;
+  border: 1px solid #f5593d;
 }
