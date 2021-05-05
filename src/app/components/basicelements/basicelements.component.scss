@@ -1,0 +1,26 @@
+.items {
+  display: grid;
+  text-align: -webkit-center;
+  grid-template-columns: auto auto auto;
+}
+
+.model {
+  border: 1px solid;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: fit-content;
+  height: fit-content;
+}
+
+.model:hover {
+  transition: 0.25s ease-in-out;
+  border-color: #ff641f;
+}
+
+
+.modal-itens {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+}
