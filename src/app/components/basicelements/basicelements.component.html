@@ -1,5 +1,5 @@
 <div class="section section-buttons">
-    <div class="container">
+    <div class="container pu-50">
         <div class="title">
             <h2>QUEM SOMOS?</h2>
         </div>
@@ -11,7 +11,13 @@
             </div>
             <div class="row">
                 <div class="col-12 items">
-                    <smart-rounded-image [title]="'Televisores'" [urlImage]="'assets/img/examples/tv-bg.png'">
+                    <smart-icon [size]="5" [message]="'Televisores'" [icon]="'fa fa-tv'"></smart-icon>
+                    <smart-icon [size]="5" [message]="'Games'" [icon]="'far fa-gamepad'"></smart-icon>
+                    <smart-icon [size]="5" [message]="'Radio'" [icon]="'fas fa-volume-up'"></smart-icon>
+                    <smart-icon [size]="5" [message]="'Cameras'" [icon]="'fas fa-camera'"></smart-icon>
+                    <smart-icon [size]="5" [message]="'Microondas'"><span class="iconify" style="font-size: 5vw;" data-icon="mdi-microwave" data-inline="false"></span></smart-icon>
+                    <smart-icon [size]="5" [message]="'Geral'" [icon]="'fas fa-microchip'"></smart-icon>
+                    <!-- <smart-rounded-image [title]="'Televisores'" [urlImage]="'assets/img/examples/tv-bg.png'">
                     </smart-rounded-image>
                     <smart-rounded-image [title]="'Games'" [urlImage]="'assets/img/examples/games-bg.png'">
                     </smart-rounded-image>
@@ -22,15 +28,15 @@
                     <smart-rounded-image [title]="'Cameras'" [urlImage]="'assets/img/examples/digital-camera-bg.png'">
                     </smart-rounded-image>
                     <smart-rounded-image [title]="'Geral'" [urlImage]="'assets/img/examples/general-bg.png'">
-                    </smart-rounded-image>
+                    </smart-rounded-image> -->
                 </div>
             </div>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <hr/>
-        <br/>
+        <br />
+        <br />
+        <br />
+        <hr />
+        <br />
         <div class="container">
             <div class="title">
                 <h2>O QUE NOS DIFERENCIA?</h2>
@@ -57,5 +63,11 @@
                         </div>
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
+                <hr />
+                <br />
+                <app-navigation></app-navigation>
             </div>
         </div>

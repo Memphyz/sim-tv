@@ -15,6 +15,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
 import { RoundedImageComponent } from './rounded-image/rounded-image.component';
+import { IconComponent } from './icon/icon.component';
 
 @NgModule({
     imports: [
@@ -34,7 +35,8 @@ import { RoundedImageComponent } from './rounded-image/rounded-image.component';
         NotificationComponent,
         NgbdModalComponent,
         NgbdModalContent,
-        RoundedImageComponent
+        RoundedImageComponent,
+        IconComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]

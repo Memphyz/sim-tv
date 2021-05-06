@@ -1,0 +1,5 @@
+<div class="icon-content">
+    <label *ngIf="message">{{ message }}</label>
+    <i [class]="icon" [style]="getIconStyle()"></i>
+    <ng-content [style]="getIconStyle()"></ng-content>
+</div>
