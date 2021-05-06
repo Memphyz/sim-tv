@@ -1,0 +1,15 @@
+.logo {
+  user-select: none;
+  border-radius: 20px;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 90%;
+  }
+}

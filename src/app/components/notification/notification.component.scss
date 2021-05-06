@@ -12,14 +12,30 @@
 }
 
 .contact {
-  width: 100%;
   min-height: 200px;
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 725px) {
+  .contact {
+    gap: 25px;
+    flex-direction: column;
+  }
+  .contact-ways {
+    flex-direction: row !important;
+    column-gap: 50px;
+  }
+}
+
+.modal {
+  max-width: 1140px;
+  display: contents;
+  margin: 0 auto;
 }
 
 .contact-ways {
-  padding: 20px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -33,6 +49,7 @@
     align-items: center;
     font-weight: bold;
     color: white;
+    word-break: break-all;
   }
 }
 

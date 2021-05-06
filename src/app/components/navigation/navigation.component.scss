@@ -1,6 +1,7 @@
 .conditions {
-    display: grid;
+    display: flex;
     gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    grid-template-columns: auto auto auto auto;
 }

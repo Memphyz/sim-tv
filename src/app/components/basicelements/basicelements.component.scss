@@ -18,9 +18,10 @@
   border-color: #ff641f;
 }
 
-
 .modal-itens {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
