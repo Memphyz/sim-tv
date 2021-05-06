@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import * as nodemailer from 'nodemailer';
 
@@ -25,5 +25,10 @@ export class NotificationComponent implements OnInit{
         if(this.form.invalid){
             this.form.markAllAsTouched();
         }
+    }
+    
+    @HostListener('window:resize', ['$event'])
+    public currentWidth(): number {
+        return window.innerWidth;
     }
 }

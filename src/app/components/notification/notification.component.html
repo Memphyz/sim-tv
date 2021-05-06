@@ -3,7 +3,7 @@
         <h2>CONTATO</h2>
     </div>
     <div class="contact col-12">
-        <div class="mail col-5">
+        <div class="mail" [ngClass]="currentWidth() < 724 ? '' : 'col-5'">
             <form>
                 <div class="contact-form col-11">
                     <label>Nome:</label>
@@ -13,7 +13,7 @@
                     <label>Mensagem:</label>
                     <textarea name="Contact-Message" rows="6">
                         </textarea>
-                    <button type="submit" class="btn btn-outline-danger btn-round col-3"
+                    <button type="submit" class="btn btn-outline-danger btn-round"
                         (click)="submitForm()">Enviar</button>
                 </div>
             </form>

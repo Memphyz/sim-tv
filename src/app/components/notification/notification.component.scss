@@ -24,8 +24,19 @@
     flex-direction: column;
   }
   .contact-ways {
-    flex-direction: row !important;
-    column-gap: 50px;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    gap: 49px !important;
+    margin: 0 auto;
+    width: 90vw !important;
+    grid-template-columns: auto auto auto !important;
+    margin-bottom: 50px;
+    top: 40px !important;
+  }
+
+  .way {
+    margin: 0 auto;
   }
 }
 
