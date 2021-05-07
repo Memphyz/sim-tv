@@ -7,7 +7,7 @@
   align-items: center;
   font-size: 25px;
 }
-i {
+i, span {
   width: fit-content;
   height: fit-content;
 }

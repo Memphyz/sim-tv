@@ -11,6 +11,7 @@ export class IconComponent implements OnInit {
   @Input() public size: number = 20;
   @Input() public border: number;
   @Input() public icon: string;
+  @Input() public isIconfy = false;
   @Input() public message: string
   @Input() public borderColor: string;
   @Input() public color: string;

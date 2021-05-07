@@ -1,5 +1,9 @@
 <div class="icon-content">
     <label *ngIf="message">{{ message }}</label>
-    <i [class]="icon" [style]="getIconStyle()"></i>
-    <ng-content [style]="getIconStyle()"></ng-content>
+    <div *ngIf="!isIconfy else iconfy">
+        <i [class]="icon" [style]="getIconStyle()"></i>
+    </div>
+    <ng-template #iconfy>
+        <span class="iconify" [attr.data-icon]="icon" [style]="getIconStyle()" data-inline="false"></span>
+    </ng-template>
 </div>
