@@ -229,7 +229,8 @@
         margin-bottom: 15px;
         overflow-x: scroll;
         overflow-y: hidden;
-        border: 1px solid #dddddd;
+        border: 1px solid #dddddd; 
+        scrollbar-width: thin;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         -webkit-overflow-scrolling: touch;
     }
