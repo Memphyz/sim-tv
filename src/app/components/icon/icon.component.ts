@@ -1,5 +1,5 @@
 import { style } from '@angular/animations';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'smart-icon',
@@ -23,7 +23,7 @@ export class IconComponent implements OnInit {
 
   public getIconStyle(): string {
     const styles: string[] = []
-    styles.push(`font-size: ${this.size}vw`);
+    styles.push(`font-size: ${ this.size }px`);
     if (this.border || this.borderColor) {
       styles.push(`border: ${this.border || 1}px solid ${ this.borderColor }`);
     }
