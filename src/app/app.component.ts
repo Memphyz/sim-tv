@@ -1,13 +1,12 @@
-import { Component, OnInit, Inject, Renderer2, ElementRef, ViewChild } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
-import { Subscription } from 'rxjs/Subscription';
+import { DOCUMENT, Location } from '@angular/common';
+import { Component, ElementRef, Inject, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import 'rxjs/add/operator/filter';
-import { DOCUMENT } from '@angular/common';
-import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
+import { Subscription } from 'rxjs/Subscription';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @Component({
-    selector: 'app-root',
+    selector: 'smart-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })

@@ -1,14 +1,13 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import * as nodemailer from 'nodemailer';
 
 @Component({
-    selector: 'app-notification',
-    templateUrl: './notification.component.html',
-    styleUrls: ['./notification.component.scss']
+    selector: 'smart-find-us',
+    templateUrl: './find-us.component.html',
+    styleUrls: ['./find-us.component.scss']
 })
 
-export class NotificationComponent implements OnInit{
+export class FindUsComponent implements OnInit {
     public form: FormGroup;
 
     constructor(private readonly fb: FormBuilder){}

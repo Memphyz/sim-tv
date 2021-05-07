@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-navigation',
-    templateUrl: './navigation.component.html',
-    styleUrls: ['./navigation.component.scss']
+    selector: 'smart-contract-conditions',
+    templateUrl: './contract-conditions.component.html',
+    styleUrls: ['./contract-conditions.component.scss']
 })
-export class NavigationComponent implements OnInit {
+export class ContractConditionsComponent implements OnInit {
 
     public condicaoOrcamento = 'O prazo de validade é de até 10 dias da sua aprovação. Não sendo aprovado a SIM TV terá o prazo de 48 horas para remontar o aparelho, e 5 dias úteis para entregá-lo caso o mesmo tenha sido retirado';
     public condicaoGarantia = 'O prazo é de 90 dias, contados a partir da entrega do aparelho, A garantia perderá a validade: se houver violação do lacre colocado no produto por ocasião da entrega, utilização da rede elétrica imprópria, danos por acidentes ou agentes da natureza, manutenção inadequada por técnico não autorizado, ou não pagamento do conserto ou de parcela quando vendida á prazo.';

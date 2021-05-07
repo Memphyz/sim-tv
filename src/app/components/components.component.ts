@@ -2,7 +2,7 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 import { NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-    selector: 'app-components',
+    selector: 'smart-components',
     templateUrl: './components.component.html',
     styleUrls: ['./components.component.css'],
     styles: [`
